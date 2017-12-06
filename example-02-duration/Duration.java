@@ -15,7 +15,7 @@ public class Duration
     }
     
     public Duration(int mins) {
-        this.hours = min / HOURS_PER_MINUTE;
+        this.hours = mins / HOURS_PER_MINUTE;
         this.mins = mins % HOURS_PER_MINUTE;
         this.secs = 0;
     }
