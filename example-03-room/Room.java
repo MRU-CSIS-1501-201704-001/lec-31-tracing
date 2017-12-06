@@ -17,17 +17,4 @@ public class Room
     {
         doors.add( new Door(adjacent) );
     }
-... // etc.
-}
-
-
-public class Door
-{
-    private Room dest;
-
-    public Door(Room d)
-    {
-        dest = d;
-    }
-... // etc.
 }
